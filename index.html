@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOC CYBER THOI NAO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" >
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" >
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css"> 
+    <link rel="stylesheet" href="css/style.css">
+   
+    <style>
+        .owl-prev{
+            left: -30px;
+        }
+        .owl-next{
+            right: -30px;
+        }
+        .owl-prev , .owl-next{
+            position: absolute;
+            top:30%;
+        }
+        .owl-prev span , .owl-next span{
+            font-size: 60px;
+            color: #787878;
+            
+        }
+        .owl-theme .owl-nav [class*="owl-"]:hover{
+            background-color: transparent;
+        }
+    </style>
+   
+    
+    
+   
+    
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container header__detail ">
+            <p class="text-right  text-white mb-0">
+                <i class="fa fa-phone"></i>
+                <span class="mx-2 border-right pr-2 font-weight-bold">0975 770 920</span>
+                <i class="fa fa-search"></i>
+            </p>
+        </div>
+        <nav class="container navbar header__navbar navbar-expand-lg navbar-dark py-0 ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="https://www.klevermedia.co.uk/html_templates/movie_star_html/images/logo.svg" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ml-auto ">
+                 <li class="nav-item active">
+                     <a href="#" class="nav-link">HOME</a>
+                 </li>
+                 <li class="nav-item">
+                    <a href="#" class="nav-link">What's on</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Source code</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Sign in</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Sign up</a>
+                </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- end header -->
+    <!-- carousel -->
+    <div class="my-carousel">
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators justify-content-start  ">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner ">
+              <div class="carousel-item active item-1">
+
+                <div class="carousel-item__overlay"></div>
+                <div class="carousel-item__caption container text-white">
+                    <span class="title">Action, avanger, Fantasty</span>
+                    <h1 class="">End of the world: Part I</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quibusdam itaque magni modi dolorem perspiciatis nam fuga autem! A, fuga.
+                    </p>
+                    <div class="carousel-item__trailer mt-4">
+                            <span class="mr-2 text-white d-inline-block rounded-circle text-center">PG</span>
+                            <button class="btn-orange">
+                                <i class="fa fa-play mr-2"></i>
+                                PLAY TRAILER
+                            </button>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item item-2">
+                
+                <div class="carousel-item__overlay"></div>
+                <div class="carousel-item__caption container text-white">
+                    <span class="title">Action, avanger, Fantasty</span>
+                    <h1 class="display-4">End of the world: Part II</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quibusdam itaque magni modi dolorem perspiciatis nam fuga autem! A, fuga.
+                    </p>
+                    <div class="carousel-item__trailer mt-4">
+                            <span class="mr-2 text-white d-inline-block rounded-circle text-center">PG</span>
+                            <button class="btn-orange">
+                                <i class="fa fa-play mr-2"></i>
+                                PLAY TRAILER
+                            </button>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item item-3">
+                
+                <div class="carousel-item__overlay"></div>
+                <div class="carousel-item__caption container text-white">
+                    <span class="title">Action, avanger, Fantasty</span>
+                    <h1 class="display-4">End of the world: Part III</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quibusdam itaque magni modi dolorem perspiciatis nam fuga autem! A, fuga.
+                    </p>
+                    <div class="carousel-item__trailer mt-4">
+                            <span class="mr-2 text-white d-inline-block rounded-circle text-center">PG</span>
+                            <button class="btn-orange">
+                                <i class="fa fa-play mr-2"></i>
+                                PLAY TRAILER
+                            </button>
+                    </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+
+    </div>
+    <!-- end carousel -->
+    <!-- showing movie -->
+    <div class="movie">
+        <div class="container">
+          <h1 class="movie__title">SHOWING MOVIE</h1>
+          <div class="row">
+            <div class="col-sm-6 col-lg-3 text-center ">
+                <div class="movie__item text-white">
+                  <img src="./images/movie-1.jpg" alt="" class="w-100">
+                  <div class="movie__overlay"></div>
+                  <div class="movie__detail">
+                    <i class="fa fa-play d-block"> </i>
+                    <a class="d-block" >READ MORE</a>
+                    <span class="d-block">Release: 7, mar, 2017</span>
+                  </div>
+                
+                </div>
+                <p class="movie__name"> Hush </p>
+                <i class="fa fa-star movie__star"></i>
+                <i class="fa fa-star movie__star"></i>
+                <i class="fa fa-star movie__star"></i>
+                <i class="fa fa-star movie__star"></i>
+                <i class="fa fa-star movie__star"></i>
+            </div>
+            <div class="col-sm-6 col-lg-3 text-center ">
+              <div class="movie__item text-white">
+                <img src="./images/movie-2.jpg" alt="" class="w-100">
+                <div class="movie__overlay"></div>
+                <div class="movie__detail">
+                  <i class="fa fa-play d-block"> </i>
+                  <a class="d-block" >READ MORE</a>
+                  <span class="d-block">Release: 7, mar, 2017</span>
+                </div>
+              
+              </div>
+              <p class="movie__name"> Dark and Lonely </p>
+              <i class="fa fa-star movie__star"></i>
+              <i class="fa fa-star movie__star"></i>
+              <i class="fa fa-star movie__star"></i>
+              <i class="fa fa-star movie__star"></i>
+              <i class="fa fa-star movie__star"></i>
+          </div>
+          <div class="col-sm-6 col-lg-3 text-center ">
+            <div class="movie__item text-white">
+              <img src="./images/movie-3.jpg" alt="" class="w-100">
+              <div class="movie__overlay"></div>
+              <div class="movie__detail">
+                <i class="fa fa-play d-block"> </i>
+                <a class="d-block" >READ MORE</a>
+                <span class="d-block">Release: 7, mar, 2017</span>
+              </div>
+            
+            </div>
+            <p class="movie__name"> Venture </p>
+            <i class="fa fa-star movie__star"></i>
+            <i class="fa fa-star movie__star"></i>
+            <i class="fa fa-star movie__star"></i>
+            <i class="fa fa-star movie__star"></i>
+            <i class="fa fa-star movie__star"></i>
+        </div>
+        <div class="col-sm-6 col-lg-3 text-center ">
+          <div class="movie__item text-white">
+            <img src="./images/movie-4.jpg" alt="" class="w-100">
+            <div class="movie__overlay"></div>
+            <div class="movie__detail">
+              <i class="fa fa-play d-block"> </i>
+              <a class="d-block" >READ MORE</a>
+              <span class="d-block">Release: 7, mar, 2017</span>
+            </div>
+          
+          </div>
+          <p class="movie__name"> The last post </p>
+          <i class="fa fa-star movie__star"></i>
+          <i class="fa fa-star movie__star"></i>
+          <i class="fa fa-star movie__star"></i>
+          <i class="fa fa-star movie__star"></i>
+          <i class="fa fa-star movie__star"></i>
+      </div>
+           
+          </div>
+        </div>
+    </div>
+    <!-- end showing movie -->
+    <!-- show time -->
+    <div class="showtimes">
+      <div class="container">
+        <ul class="nav nav-tabs " id="myTab" role="tablist">
+          <li class="nav-item" >
+            <a class="nav-link  active " id="home-tab" data-toggle="tab" href="#mon" role="tab" >MON</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link  " id="home-tab" data-toggle="tab" href="#tue" role="tab" >TUE</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link  " id="home-tab" data-toggle="tab" href="#wed" role="tab" >TODAY</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link  " id="home-tab" data-toggle="tab" href="#thu" role="tab" >THU</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link  " id="home-tab" data-toggle="tab" href="#fri" role="tab" >FRI</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link  " id="home-tab" data-toggle="tab" href="#sat" role="tab" >SAT</a>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link  " id="home-tab" data-toggle="tab" href="#sun" role="tab" >SUN</a>
+          </li>
+         
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active " id="mon" role="tabpanel" >
+             <div class="row">
+               <div class="col-2">
+                <img src="./images/movie-11.jpg" alt="" class="img-fluid">
+               </div>
+               <div class="col-10 ">
+                  <div class="showtimes__detail">
+                    <span class="showtimes__detail-name" >ACTION, ANVENTURE,  FATASTY</span>
+                    <H1 class="">It's over</H1>
+                    <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                    <a href="#" class="d-block mb-4"> 
+                      FULL SYNOPSIS
+                      <i class="fas fa-angle-right"></i>
+                    </a>
+                    <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                         <div class=>
+                          <i class="far fa-clock"></i>
+                          <span class="showtimes__time mr-2">VIEWING TIMES</span>
+                          <button class="showtimes__btn btn mr-2">14:25</button>
+                          <button class="btn mr-2">15:25</button>
+                          <button class="btn mr-2">18:25</button>
+                          <button class="btn mr-2">21:25</button>
+                         </div>
+                        <p class="showtimes__length">
+                        105 MINS
+                        <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                      </p>
+                    </div>
+                  </div>
+               </div>
+             </div>
+             <div class="row">
+              <div class="col-2">
+               <img src="./images/movie-12.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-10 ">
+                 <div class="showtimes__detail">
+                   <span class="showtimes__detail-name" >ACTION, ANVENTURE,  FATASTY</span>
+                   <H1 class="">Fences</H1>
+                   <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                   <a href="#" class="d-block mb-4"> 
+                     FULL SYNOPSIS
+                     <i class="fas fa-angle-right"></i>
+                   </a>
+                   <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                        <div class=>
+                         <i class="far fa-clock"></i>
+                         <span class="mr-2">VIEWING TIMES</span>
+                         <button class="showtimes__btn btn mr-2">14:25</button>
+                         <button class="btn mr-2">15:25</button>
+                         <button class="btn mr-2">18:25</button>
+                         <button class="btn mr-2">21:25</button>
+                        </div>
+                       <p class="showtimes__length">
+                       105 MINS
+                       <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                     </p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+               <img src="./images/movie-13.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-10 ">
+                 <div class="showtimes__detail">
+                   <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                   <H1 class="">Captain America: The First Avenger</H1>
+                   <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                   <a href="#" class="d-block mb-4"> 
+                     FULL SYNOPSIS
+                     <i class="fas fa-angle-right"></i>
+                   </a>
+                   <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                        <div class=>
+                         <i class="far fa-clock"></i>
+                         <span class="mr-2">VIEWING TIMES</span>
+                         <button class="showtimes__btn btn mr-2">14:25</button>
+                         <button class="btn mr-2">15:25</button>
+                         <button class="btn mr-2">18:25</button>
+                         <button class="btn mr-2">21:25</button>
+                        </div>
+                       <p class="showtimes__length">
+                       105 MINS
+                       <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                     </p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+               <img src="./images/movie-14.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-10 ">
+                 <div class="showtimes__detail">
+                   <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                   <H1 class="">Daylight</H1>
+                   <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                   <a href="#" class="d-block mb-4"> 
+                     FULL SYNOPSIS
+                     <i class="fas fa-angle-right"></i>
+                   </a>
+                   <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                        <div class=>
+                         <i class="far fa-clock"></i>
+                         <span class="mr-2">VIEWING TIMES</span>
+                         <button class="showtimes__btn btn mr-2">14:25</button>
+                         <button class="btn mr-2">15:25</button>
+                         <button class="btn mr-2">18:25</button>
+                         <button class="btn mr-2">21:25</button>
+                        </div>
+                       <p class="showtimes__length">
+                       105 MINS
+                       <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                     </p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade " id="tue" role="tabpanel" >
+            <div class="row">
+              <div class="col-2">
+               <img src="./images/movie-11.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-10 ">
+                 <div class="showtimes__detail">
+                   <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                   <H1 class="">It's over</H1>
+                   <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                   <a href="#" class="d-block mb-4"> 
+                     FULL SYNOPSIS
+                     <i class="fas fa-angle-right"></i>
+                   </a>
+                   <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                        <div class=>
+                         <i class="far fa-clock"></i>
+                         <span class="mr-2">VIEWING TIMES</span>
+                         <button class="showtimes__btn btn mr-2">14:25</button>
+                         <button class="btn mr-2">15:25</button>
+                         <button class="btn mr-2">18:25</button>
+                         <button class="btn mr-2">21:25</button>
+                        </div>
+                       <p class="showtimes__length">
+                       105 MINS
+                       <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                     </p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-12.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <span class="showtimes__detail-name" >ACTION, ANVENTURE,  FATASTY</span>
+                  <H1 class="">Fences</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-13.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Captain America: The First Avenger</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-14.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Daylight</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+          </div>
+          <div class="tab-pane fade " id="wed" role="tabpanel" >
+            <div class="row">
+              <div class="col-2">
+               <img src="./images/movie-11.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-10 ">
+                 <div class="showtimes__detail">
+                   <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                   <H1 class="">It's over</H1>
+                   <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                   <a href="#" class="d-block mb-4"> 
+                     FULL SYNOPSIS
+                     <i class="fas fa-angle-right"></i>
+                   </a>
+                   <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                        <div class=>
+                         <i class="far fa-clock"></i>
+                         <span class="mr-2">VIEWING TIMES</span>
+                         <button class="showtimes__btn btn mr-2">14:25</button>
+                         <button class="btn mr-2">15:25</button>
+                         <button class="btn mr-2">18:25</button>
+                         <button class="btn mr-2">21:25</button>
+                        </div>
+                       <p class="showtimes__length">
+                       105 MINS
+                       <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                     </p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-12.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <span class="showtimes__detail-name" >ACTION, ANVENTURE,  FATASTY</span>
+                  <H1 class="">Fences</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-13.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Captain America: The First Avenger</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-14.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Daylight</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+          </div>
+          <div class="tab-pane fade " id="thu" role="tabpanel" >
+            <div class="row">
+              <div class="col-2">
+               <img src="./images/movie-11.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-10 ">
+                 <div class="showtimes__detail">
+                   <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                   <H1 class="">It's over</H1>
+                   <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                   <a href="#" class="d-block mb-4"> 
+                     FULL SYNOPSIS
+                     <i class="fas fa-angle-right"></i>
+                   </a>
+                   <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                        <div class=>
+                         <i class="far fa-clock"></i>
+                         <span class="mr-2">VIEWING TIMES</span>
+                         <button class="showtimes__btn btn mr-2">14:25</button>
+                         <button class="btn mr-2">15:25</button>
+                         <button class="btn mr-2">18:25</button>
+                         <button class="btn mr-2">21:25</button>
+                        </div>
+                       <p class="showtimes__length">
+                       105 MINS
+                       <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                     </p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-12.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <span class="showtimes__detail-name" >ACTION, ANVENTURE,  FATASTY</span>
+                  <H1 class="">Fences</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-13.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Captain America: The First Avenger</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-14.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Daylight</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+          </div>
+          <div class="tab-pane fade " id="fri" role="tabpanel" >
+            <div class="row">
+              <div class="col-2">
+               <img src="./images/movie-11.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-10 ">
+                 <div class="showtimes__detail">
+                   <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                   <H1 class="">It's over</H1>
+                   <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                   <a href="#" class="d-block mb-4"> 
+                     FULL SYNOPSIS
+                     <i class="fas fa-angle-right"></i>
+                   </a>
+                   <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                        <div class=>
+                         <i class="far fa-clock"></i>
+                         <span class="mr-2">VIEWING TIMES</span>
+                         <button class="showtimes__btn btn mr-2">14:25</button>
+                         <button class="btn mr-2">15:25</button>
+                         <button class="btn mr-2">18:25</button>
+                         <button class="btn mr-2">21:25</button>
+                        </div>
+                       <p class="showtimes__length">
+                       105 MINS
+                       <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                     </p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-12.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <span class="showtimes__detail-name" >ACTION, ANVENTURE,  FATASTY</span>
+                  <H1 class="">Fences</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-13.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Captain America: The First Avenger</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-14.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Daylight</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+          </div>
+          <div class="tab-pane fade " id="sat" role="tabpanel" >
+            <div class="row">
+              <div class="col-2">
+               <img src="./images/movie-11.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-10 ">
+                 <div class="showtimes__detail">
+                   <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                   <H1 class="">It's over</H1>
+                   <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                   <a href="#" class="d-block mb-4"> 
+                     FULL SYNOPSIS
+                     <i class="fas fa-angle-right"></i>
+                   </a>
+                   <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                        <div class=>
+                         <i class="far fa-clock"></i>
+                         <span class="mr-2">VIEWING TIMES</span>
+                         <button class="showtimes__btn btn mr-2">14:25</button>
+                         <button class="btn mr-2">15:25</button>
+                         <button class="btn mr-2">18:25</button>
+                         <button class="btn mr-2">21:25</button>
+                        </div>
+                       <p class="showtimes__length">
+                       105 MINS
+                       <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                     </p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-12.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <span class="showtimes__detail-name" >ACTION, ANVENTURE,  FATASTY</span>
+                  <H1 class="">Fences</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-13.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Captain America: The First Avenger</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-14.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Daylight</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+          </div>
+          <div class="tab-pane fade " id="sun" role="tabpanel" >
+            <div class="row">
+              <div class="col-2">
+               <img src="./images/movie-11.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col-10 ">
+                 <div class="showtimes__detail">
+                   <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                   <H1 class="">It's over</H1>
+                   <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                   <a href="#" class="d-block mb-4"> 
+                     FULL SYNOPSIS
+                     <i class="fas fa-angle-right"></i>
+                   </a>
+                   <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                        <div class=>
+                         <i class="far fa-clock"></i>
+                         <span class="mr-2">VIEWING TIMES</span>
+                         <button class="showtimes__btn btn mr-2">14:25</button>
+                         <button class="btn mr-2">15:25</button>
+                         <button class="btn mr-2">18:25</button>
+                         <button class="btn mr-2">21:25</button>
+                        </div>
+                       <p class="showtimes__length">
+                       105 MINS
+                       <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                     </p>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-12.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <span class="showtimes__detail-name" >ACTION, ANVENTURE,  FATASTY</span>
+                  <H1 class="">Fences</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-13.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Captain America: The First Avenger</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-2">
+              <img src="./images/movie-14.jpg" alt="" class="img-fluid">
+             </div>
+             <div class="col-10 ">
+                <div class="showtimes__detail">
+                  <spa class="showtimes__detail-name"n>ACTION, ANVENTURE,  FATASTY</spa>
+                  <H1 class="">Daylight</H1>
+                  <p>European mercenaries searching for black powder become embroiled in the defense of It's over of China against a horde of monstrous creatures.</p>
+                  <a href="#" class="d-block mb-4"> 
+                    FULL SYNOPSIS
+                    <i class="fas fa-angle-right"></i>
+                  </a>
+                  <div class="showtimes__list d-flex justify-content-between  align-items-center ">
+                       <div class=>
+                        <i class="far fa-clock"></i>
+                        <span class="mr-2">VIEWING TIMES</span>
+                        <button class="showtimes__btn btn mr-2">14:25</button>
+                        <button class="btn mr-2">15:25</button>
+                        <button class="btn mr-2">18:25</button>
+                        <button class="btn mr-2">21:25</button>
+                       </div>
+                      <p class="showtimes__length">
+                      105 MINS
+                      <span class="d-inline-block bg-dark text-white font-weight-bold ml-2 text-center" >15</span>
+                    </p>
+                  </div>
+                </div>
+             </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end show time -->
+    <!-- coming soon -->
+    <section class="coming">
+        <div class="coming__bg">
+          <div class="container">
+            <h1 class="coming__heading">Coming Soon</h1>
+            <div class="row">
+              <div class="col-6 d-flex align-items-center">
+                <div class="coming__detail ">
+                  <span>COMEDY, CRIME</span>
+                  <h1>The Hangover Part III</h1>
+                  <p >
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <span class="coming__day">
+                      <i class="far fa-calendar-alt"></i>
+                      30 Septemper, 2017
+                    </span>
+                  </p>
+                  <p class="coming__content"> 
+                    A dramatization of the April 2010 disaster, when the offshore drilling rig Deepwater Horizon exploded and created the worst oil spill in U.S. history.
+                  </p>
+                  <a href="#"> 
+                    MORE INFO
+                    <i class="fa fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="col-6">
+                  <div class="coming__trailer ">
+                    <img class="img-fluid" src="./images/slide-3-video.png" alt="">
+                    <i class="fa fa-play"></i>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="coming__list">
+          <div class="container">
+            <!-- <div class="row">
+              <div class="col-2  ">
+                <div class="film ">
+                    <img class="film__photo" src="./images/movie-2.jpg" alt="">
+                    <h3>End of an empire</h3>
+                    <span>19, October, 2018</span>
+                  
+                </div>
+              </div> -->
+              <ul class=" nav nav-tabs ">
+              <div class=" mt-5 mb-5">
+              <div class="owl-carousel owl-theme">
+              
+                <li class="film__item item ">
+                  <a class="film__link active owl-lazy" data-toggle="tab" href="#home">
+                    <div class="film  ">
+                      <img class="film__photo" src="./images/movie-2.jpg" alt="">
+                      <h3 class="no-underline">End of an empire</h3>
+                      <span>19, October, 2018</span>
+                    
+                  </div>
+                  </a>
+                </li>
+                <li class="film__item item ">
+                  <a class="film__link owl-lazy" data-toggle="tab" href="#menu1">
+                    <div class="film ">
+                      <img class="film__photo" src="./images/movie-3.jpg" alt="">
+                      <h3>End of an empire</h3>
+                      <span>19, October, 2018</span>
+                    
+                  </div>
+                  </a>
+                </li>
+                <li class="film__item item ">
+                  <a class="film__link owl-lazy" data-toggle="tab" href="#menu1" >
+                    <div class="film ">
+                      <img class="film__photo" src="./images/movie-4.jpg" alt="">
+                      <h3>End of an empire</h3>
+                      <span>19, October, 2018</span>
+                    
+                  </div>
+                  </a>
+                </li>
+                <li class="film__item item ">
+                  <a class="film__link owl-lazy" data-toggle="tab" href="#menu1">
+                    <div class="film ">
+                      <img class="film__photo" src="./images/movie-5.jpg" alt="">
+                      <h3>End of an empire</h3>
+                      <span>19, October, 2018</span>
+                    
+                  </div>
+                  </a>
+                </li>
+                <li class="film__item item ">
+                  <a class="film__link owl-lazy" data-toggle="tab" href="#menu1">
+                    <div class="film ">
+                      <img class="film__photo" src="./images/movie-6.jpg" alt="">
+                      <h3>End of an empire</h3>
+                      <span>19, October, 2018</span>
+                    
+                  </div>
+                  </a>
+                </li>
+                <li class="film__item item ">
+                  <a class="film__link owl-lazy" data-toggle="tab" href="#menu1">
+                    <div class="film ">
+                      <img class="film__photo" src="./images/movie-7.jpg" alt="">
+                      <h3>End of an empire</h3>
+                      <span>19, October, 2018</span>
+                    
+                  </div>
+                  </a>
+                </li>
+                
+               
+             
+            </div>
+          </div>
+        </ul>
+              
+              <!-- Tab panes -->
+             
+                
+                  
+             
+            </div>
+             </div>
+              
+
+              
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- end coming -->
+    <!-- contact -->
+    
+    <!-- end contact -->
+    <!-- footer -->
+    <footer class="footer">
+
+    </footer>
+    
+    
+         
+</div>
+    <!-- end footer -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.mousewheel.min.js"></script> 
+    <script>
+        $('.owl-carousel').owlCarousel({
+            autoplay: true,
+            autoplayHoverPause: true,
+            item: 4,
+            nav: true,
+            dots: true,
+            loop: true,
+            lazyLoad: true,
+            margin: 5,
+            stagePadding: 5,
+            responsive:{
+                0:{
+                    items: 1,
+                    dots: false
+                },
+                485:{
+                    items: 2,
+                    dots: true
+                },
+                728:{
+                    items: 3,
+                    dots: true
+                },
+                960:{
+                    items: 4,
+                    dots: true
+                },
+                1200:{
+                    items: 5,
+                    dots: false
+                },
+               
+            }
+
+        });
+        $('.owl-carousel').on('mousewheel', '.owl-stage', function (e){
+            if(e.deltaY>0){
+                $('.owl-carousel').trigger('next.owl');
+            } else{
+                $('.owl-carousel').trigger('prev.owl');
+            }
+            e.preventDefault();
+            
+        });
+    </script>
+    
+    
+    
+</body>
+</html>
